@@ -13,7 +13,7 @@ int main() {
         cin>>arr[i];
         dp[i]=1;
     }
-    int ans=-1;
+    int ans=1;
     for(int i=1;i<kk;i++){
         for(int j=0;j<i;j++) {
             if(arr[j]<arr[i]) {
